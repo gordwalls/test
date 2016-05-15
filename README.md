@@ -81,7 +81,7 @@ The server can be exercised using any REST client tool. My favorite is POSTMAN w
 ```
 
 **Request Body Example:**
-```
+```json
 {
   "message": "A man, a plan, a canal: Panama."
 }
@@ -97,7 +97,7 @@ The server can be exercised using any REST client tool. My favorite is POSTMAN w
 ```
 
 **Response Body Example:**
-```
+```json
 {
     "id": 1,
     "message": "A man, a plan, a canal: Panama.",
@@ -125,7 +125,7 @@ The server can be exercised using any REST client tool. My favorite is POSTMAN w
 ```
 
 **Response Body Example:**
-```
+```json
 [
     {
         "id": 2,
@@ -157,7 +157,7 @@ The server can be exercised using any REST client tool. My favorite is POSTMAN w
 ```
 
 **Response Body Example:**
-```
+```json
 {
     "id": 2,
     "message": "Mary had a little lamb.",
@@ -182,7 +182,7 @@ The server can be exercised using any REST client tool. My favorite is POSTMAN w
 ```
 
 **Response Body Example:**
-```
+```json
 {
     "id": 2,
     "message": "Mary had a little lamb.",
@@ -203,7 +203,7 @@ All errors are identified using a unique error id which is a concatination of th
 If the error is due to an exception thrown by a subtending system (e.g. the database), then the message of that exception will be included in the innner exception message.  This is provided mainly for debugging.
 
 An example error response body follows:
-```
+```json
 {
     "errorId": "404-1",
     "errorMessage": "Message not found",
