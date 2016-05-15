@@ -12,3 +12,9 @@
 hs_err_pid*
 
 target/
+.classpath
+.mvn/
+.project
+.settings/
+mvnw
+mvnw.cmd
