@@ -71,6 +71,8 @@ The server can be exercised using any REST client tool. My favorite is POSTMAN w
 #### 1. Creating a message
 **URL** - POST /message
 
+**Default Port** - 8080
+
 **Headers** - Content-Type: application/json
 
 **Request Body:**
@@ -108,6 +110,8 @@ The server can be exercised using any REST client tool. My favorite is POSTMAN w
 #### 2. Get all messages
 **URL** - GET /message
 
+**Default Port** - 8080
+
 **Headers** - Content-Type: application/json
 
 **Request Body:** None
@@ -143,6 +147,8 @@ The server can be exercised using any REST client tool. My favorite is POSTMAN w
 #### 3. Get one messages
 **URL** - GET /message/{id}
 
+**Default Port** - 8080
+
 **Headers** - Content-Type: application/json
 
 **Request Body:** None
@@ -167,6 +173,8 @@ The server can be exercised using any REST client tool. My favorite is POSTMAN w
 
 #### 4. Delete one messages
 **URL** - DELETE /message/{id}
+
+**Default Port** - 8080
 
 **Headers** - Content-Type: application/json
 
